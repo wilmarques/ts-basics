@@ -1,6 +1,5 @@
-function soma(n1: number, n2: number) {
-  return n1 + n2;
-}
+import { soma } from './soma.js';
 
-soma(1, 2);
-soma(1, 3);
+const resultado = soma(1, 2);
+
+console.log(`O resultado da soma é - ${resultado}`);
