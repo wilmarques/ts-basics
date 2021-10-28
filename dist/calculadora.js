@@ -6,4 +6,10 @@ export class Calculadora {
     subtrair() {
         return this.n1 - this.n2;
     }
+    multiplicar(params) {
+        return params.n1 * params.n2;
+    }
+    divir(params) {
+        return params.n1 / params.n2;
+    }
 }
